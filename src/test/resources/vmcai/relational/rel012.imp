@@ -1,0 +1,19 @@
+x = "a";
+y = "b";
+
+if (x == y) {
+	if (true) {
+		z = "notok";
+	} else {
+		z = "notok";
+	}
+} else {
+	if (x != y) {
+		z = "ok";
+		x = "ok";
+	} else {
+		z = "notok";
+	}
+}
+
+y = "c";

@@ -1,0 +1,15 @@
+// From: https://www.codota.com/code/query/java.lang@String+java.lang@String@concat
+// Project: Codota
+
+url = randStr();
+
+ if (url.startsWith("http://")) {
+ 
+} else {
+	
+	if (url.startsWith("https://")) {
+	
+	} else {
+    	url = "http://" + url;
+    }
+}

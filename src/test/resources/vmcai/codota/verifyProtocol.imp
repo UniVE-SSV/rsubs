@@ -1,0 +1,10 @@
+// From: https://www.codota.com/code/query/java.lang@String+java.lang@String@concat
+// Project: Codota
+
+url = randStr();
+
+ if (url.startsWith("http://")) {
+ 
+} else {
+    url = "http://" + url;
+}

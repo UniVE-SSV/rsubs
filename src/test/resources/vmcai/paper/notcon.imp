@@ -1,0 +1,11 @@
+
+r = "not constant";
+
+if (randBool()) {
+	r = r + " passed";
+} else {
+	r = r + " failed";
+}
+
+assert(r.contains("con"));
+assert(r.contains("ed"));

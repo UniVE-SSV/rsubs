@@ -1,0 +1,14 @@
+ 
+ str = randStr();
+ pos = randInt();
+ len = randInt();
+
+if (len < 0 || pos > str.length) {
+	res = "";
+} else {
+   if (str.length < pos + len) {
+            res =  str.substring(pos, str.length);
+        } else {
+        	return str.substring(pos, pos + len);
+        }
+    }

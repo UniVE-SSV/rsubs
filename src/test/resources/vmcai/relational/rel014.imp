@@ -1,0 +1,20 @@
+x = randStr();
+y = randStr();
+z = randStr();
+
+c = "x";
+
+if ((x == y) && (y == x)) {
+	c = c + "a";
+} else {
+	c = c + "b";
+}
+
+
+x = "a";
+
+while ((z == y) && (y == z)) {
+	x = x + "b";
+}
+
+c = "b";

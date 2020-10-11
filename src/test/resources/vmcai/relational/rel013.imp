@@ -1,0 +1,13 @@
+x = "a";
+y = "b";
+
+while (x != y) {
+	if (x != y) {
+		z = x + y + "a";
+		w = z + "b";
+	} else {
+		h = "notok";
+	}
+} 
+
+h = "c";

@@ -1,0 +1,9 @@
+x = "abc";
+
+if (x.contains("abc")) {
+	y = "ok";
+} else {
+	y = "notok";
+}
+
+ c = "1";

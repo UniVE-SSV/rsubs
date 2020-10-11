@@ -1,0 +1,15 @@
+// From: https://github.com/apache/commons-lang/blob/master/src/main/java/org/apache/commons/lang3/StringUtils.java
+// Apache Common-lang library
+ 
+ str = randStr();
+len = randInt();
+
+ if (len < 0) {
+    res =  "";
+} else {
+    if (str.length < len) {
+        res =  str;
+	} else {
+        res =  str.substring(0, str.length);
+    }
+}

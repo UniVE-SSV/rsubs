@@ -1,0 +1,11 @@
+v = randStr();
+r = "Elem: \n" + v + "\n";
+
+while (randBool()) {
+	r = r + v + "\n";
+}
+
+assert(r.contains("em"));
+assert(r.contains("\n"));
+assert(r.contains(v));
+assert(r.contains("f"));

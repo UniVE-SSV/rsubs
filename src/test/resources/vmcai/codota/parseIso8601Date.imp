@@ -1,0 +1,11 @@
+// From: https://www.codota.com/code/query/java.lang@String+java.lang@String@concat
+// Project: Codota
+
+dateString = randStr();
+
+  // For EC2 Spot Fleet.
+  if (dateString.endsWith("+0000")) {
+    dateString = dateString.substring(0, dateString.length + -5) + "Z";
+  } else {
+ }
+  

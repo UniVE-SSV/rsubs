@@ -1,0 +1,17 @@
+// From: https://www.codota.com/code/java/classes/java.lang.String
+// Codota: Java.lang.String
+
+
+javaName = randStr();
+pr1 = randStr();
+pr2 = randStr();
+
+ if (javaName.startsWith(pr1)) {
+  	res = pr2 + javaName.substring(4, javaName.length);
+ } else {
+ 	 if (javaName.startsWith(pr2)) {
+ 		 res = pr1 + javaName.substring(4, javaName.length);
+ 	} else {
+  		 res = javaName;
+ 	}
+}

@@ -1,0 +1,10 @@
+// From: https://github.com/stanfordnlp/CoreNLP/blob/master/src/edu/stanford/nlp/pipeline/WikidictAnnotator.java#L97
+// Project: stanfordnlp/CoreNpl
+
+public static String normalizeTimex(String timex) {
+ if (timex.contains("T") && !"PRESENT".equals(timex)) {
+  return timex.substring(0, timex.indexOf("T"));
+ } else {
+  return timex;
+ }
+}

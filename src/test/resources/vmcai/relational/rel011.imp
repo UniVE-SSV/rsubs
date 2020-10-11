@@ -1,0 +1,14 @@
+x = "a";
+y = "b";
+
+if (x == y) {
+	z = "notok";
+} else {
+	if (x != y) {
+		z = "ok";
+	} else {
+		z = "notok";
+	}
+}
+
+y = "c";
